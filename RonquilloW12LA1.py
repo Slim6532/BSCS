@@ -1,17 +1,17 @@
-salary = {"E104":{
+RonquilloSalary = {"E104":{
 "EmpName": "Meljay Ronquillo",
 "DailyHrs": [8,9,8.5,10,8]
 },
 "E601":{
-"Employee Name":"Nikka Salary",
+"Employee Name":"Ezra Salary",
 "DailyHrs": [9,10,8,8,9]
 }
 }
 emp_id = input("Enter Employee ID: ")
-if emp_id not in salary:
+if emp_id not in RonquilloSalary:
     print("Not Found")
 else:
-    employee = salary[emp_id]
+    employee = RonquilloSalary[emp_id]
     emp_name = employee["EmpName"]
     daily_hrs = employee["DailyHrs"]
 
